@@ -239,7 +239,7 @@ def check_in(username, password):
         check_dict_list.append(healthy_check_dict)
 
     # 获取校内打卡ID
-    id_list = get_id_list(token, custom_id)
+    id_list = get_id_list_v1(token)
     print(id_list)
     if not id_list:
         return check_dict_list
