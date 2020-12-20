@@ -64,9 +64,9 @@ if post_dict:
 ```python
 """
 这里的cron就是脚本运行时间，22,4,9对应的时间是UTC时，对应北京时间早上六点，中午十二点，下午五点
-详细对应关系请查看：http://timebie.com/cn/universalbeijing.php
+详细对应关系请查看：
 
-只有健康打卡的小伙伴可以只留着22就可以了，这样其余两个时间就不会打卡
+只有健康打卡的小伙伴可以只留着22就可以了，这样其余两个时间http://timebie.com/cn/universalbeijing.php就不会打卡
 """
 on:
   push:
@@ -74,7 +74,7 @@ on:
   pull_request:
     branches: [ master ]
   schedule:
-    - cron: 0 16,22,9 * * *
+    - cron: 0 22,23 * * *
 ```
 
 
