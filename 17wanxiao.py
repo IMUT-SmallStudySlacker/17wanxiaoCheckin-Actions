@@ -399,7 +399,7 @@ def run():
 >
 > [GitHub项目地址](https://github.com/ReaJason/17wanxiaoCheckin-Actions)
 >
->期待你给项目的star✨
+>期待你给项目的star✨ 
 """)
     server_push(sckey, "\n".join(log_info))
 
