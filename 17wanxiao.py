@@ -343,9 +343,9 @@ def get_id_list_v1(token):
 def get_ap():
     now_time = datetime.datetime.now() + datetime.timedelta(hours=8)
     am = 0 <= now_time.hour <= 23
-    # pm = 12 <= now_time.hour < 17
-    # ev = 17 <= now_time.hour <= 23
-    return am
+    pm = 12 <= now_time.hour < 17
+    ev = 17 <= now_time.hour <= 23
+    return [am, pm, ev]
 
 
 def run():
