@@ -345,7 +345,7 @@ def get_ap():
     am = 0 <= now_time.hour < 12
     pm = 12 <= now_time.hour < 17
     ev = 17 <= now_time.hour <= 23
-    return [am,pm,ev]
+    return 0
 
 
 def run():
