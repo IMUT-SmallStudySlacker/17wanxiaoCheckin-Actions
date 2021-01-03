@@ -340,13 +340,13 @@ def get_id_list_v1(token):
         return False
 
 
-'''def get_ap():
+def get_ap():
     now_time = datetime.datetime.now() + datetime.timedelta(hours=8)
-    am = 0 <= now_time.hour < 12
-    pm = 12 <= now_time.hour < 17
-    ev = 17 <= now_time.hour <= 23
-    return [am, pm, ev]
-'''
+    am = 0 <= now_time.hour <= 23
+    # pm = 12 <= now_time.hour < 17
+    # ev = 17 <= now_time.hour <= 23
+    return am
+
 
 def run():
     initLogging()
