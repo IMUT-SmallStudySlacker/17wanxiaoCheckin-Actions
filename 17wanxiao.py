@@ -239,7 +239,7 @@ def check_in(username, password):
         check_dict_list.append(healthy_check_dict)
 
     # 获取校内打卡ID
-    '''id_list = get_id_list(token, custom_id)
+    id_list = get_id_list(token, custom_id)
     print(id_list)
     if not id_list:
         return check_dict_list
@@ -265,7 +265,7 @@ def check_in(username, password):
             check_dict_list.append(campus_check_dict)
             logging.info("--------------------------------------------------------------")
     return check_dict_list
-'''
+
 
 def server_push(sckey, desp):
     send_url = f"https://sc.ftqq.com/{sckey}.send"
