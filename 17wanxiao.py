@@ -352,7 +352,7 @@ def run():
     initLogging()
     now_time = datetime.datetime.now()
     bj_time = now_time + datetime.timedelta(hours=8)
-    test_day = datetime.datetime.strptime('2020-12-26 00:00:00', '%Y-%m-%d %H:%M:%S')
+    test_day = datetime.datetime.strptime('2021-12-26 00:00:00', '%Y-%m-%d %H:%M:%S')
     date = (test_day - bj_time).days
     log_info = [f"""
 ------
