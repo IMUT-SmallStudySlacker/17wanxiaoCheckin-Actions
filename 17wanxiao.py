@@ -5,7 +5,7 @@ import logging
 import requests
 
 from login import CampusCard
-
+ 
 
 def initLogging():
     logging.getLogger().setLevel(logging.INFO)
