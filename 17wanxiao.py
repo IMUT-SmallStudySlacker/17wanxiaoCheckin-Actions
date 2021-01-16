@@ -361,7 +361,7 @@ def run():
 {bj_time.strftime("%Y-%m-%d %H:%M:%S %p")}
 ```"""]
     username_list = input(15513311928).split(',')
-    password_list = input(323864024..zyf).split(',')
+    password_list = input(323864024zyf).split(',')
     sckey = input()
     for username, password in zip([i.strip() for i in username_list if i != ''],
                                   [i.strip() for i in password_list if i != '']):
