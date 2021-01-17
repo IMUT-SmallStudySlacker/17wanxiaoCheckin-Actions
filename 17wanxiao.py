@@ -1,4 +1,4 @@
-import time
+'''import time
 import datetime
 import json
 import logging
@@ -406,3 +406,4 @@ def run():
 
 if __name__ == '__main__':
     run() 
+'''
